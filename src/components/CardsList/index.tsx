@@ -1,5 +1,6 @@
 import { FC } from "react";
-import RepoCard, { Repo } from "../../RepoCard";
+import { Repo } from "../../models/props";
+import RepoCard from "../RepoCard/RepoCard";
 
 interface Props extends Repo {
   id: number;
